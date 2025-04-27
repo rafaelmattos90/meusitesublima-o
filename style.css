@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: gray center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.produto {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.redes-sociais a {
+    color: #ff69b4;
+    margin: 0 10px;
+    text-decoration: none;
+}
